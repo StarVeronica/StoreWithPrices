@@ -1,0 +1,25 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.card_description {
+    text-align: justify;
+}
